@@ -19,15 +19,27 @@ header {
   font-weight: bold;
 }
 
+a {
+  font-size: 18px;
+}
+
 /* Unvisited Link */
 a:link {
   color:white;
 }
 
+/* Visited Link */
 a:visited {
   color:white;
 }
 
+/* Active Link */
 a:active {
   color:white;
+}
+
+footer {
+  text-align: left;
+  background-color: dimgrey;
+  font-size: 11px;
 }
